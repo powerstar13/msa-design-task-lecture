@@ -23,13 +23,13 @@ ext {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'org.springframework.boot:spring-boot-starter-webflux'
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-    compileOnly 'org.projectlombok:lombok'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator' // Actuator 사용
+    implementation 'org.springframework.boot:spring-boot-starter-webflux' // WebFlux 사용
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client' // Eureka Client 사용
+    compileOnly 'org.projectlombok:lombok' // Lombok 사용
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'io.projectreactor:reactor-test'
+    testImplementation 'io.projectreactor:reactor-test' // Reactive 사용
 }
 
 dependencyManagement {
