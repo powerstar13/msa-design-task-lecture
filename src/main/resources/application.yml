@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: Lecture Domain Server # 여기서 명시한 이름이 유레카 서버에 Service ID로 등록된다.
